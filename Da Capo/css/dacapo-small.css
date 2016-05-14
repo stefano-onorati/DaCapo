@@ -1,0 +1,50 @@
+.image-bg-fluid-height {
+	padding:85px 0;	
+	background-size:cover;
+}
+
+#footer.image-bg-fixed-height {
+	height:165px;	
+	background-size:cover;
+}
+
+iframe, object, embed {
+	height:250px;
+	width:100%;
+}
+
+.contact_column {
+	width:100%;
+}
+
+.image-bg-fixed-height {
+	height:200px;
+}
+
+img#rcm-footer {
+	bottom:-0.5em;
+	height:75px;
+}
+
+img#eagle-footer {
+	bottom:-0.5em;
+	height:75px;
+	width:75px;
+}
+
+table {
+ 	width:100%;
+}
+    	
+th {
+	font-size:24px;
+}
+    	
+td.days {
+    font-size:10px;
+}
+    	
+td {
+    width:14.285%;
+    font-size:9px;
+}

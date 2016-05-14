@@ -1,0 +1,60 @@
+.image-bg-fluid-height {
+	padding:60px 0;	
+	background-size:cover;
+}
+
+#footer.image-bg-fixed-height {
+	height:115px;	
+	background-size:cover;
+}
+
+img#dc_logo {
+	height:150px;
+	width:150px;
+}
+
+.section-heading {
+	font-size:2em;
+}
+
+.section-lead {
+	font-size:1.5em;
+}
+
+.section-sub {
+	font-size:1.25em;
+}
+
+.section-paragraph {
+	font-size:0.9em;
+}
+
+figcaption, footer p {
+	font-size:0.8em;
+}
+
+.contact_column {
+	width:100%;
+}
+
+table {
+ 	width:100%;
+}
+    	
+th {
+	font-size:24px;
+}
+    	
+td.days {
+    font-size:10px;
+}
+    	
+td {
+    width:14.285%;
+    font-size:9px;
+}
+
+video {
+	width:280px;
+	margin-top:-1em;
+}

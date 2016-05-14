@@ -1,0 +1,26 @@
+.image-bg-fluid-height {
+	padding:75px 0;	
+	background-size:cover;
+}
+
+#footer.image-bg-fixed-height {
+	height:145px;	
+	background-size:cover;
+}
+
+table {
+ 	width:100%;
+}
+    	
+th {
+	font-size:24px;
+}
+    	
+td.days {
+    font-size:10px;
+}
+    	
+td {
+    width:14.285%;
+    font-size:9px;
+}

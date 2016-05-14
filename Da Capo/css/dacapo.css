@@ -1,0 +1,437 @@
+    @font-face {
+    	font-family:RobotoBlack;
+    	src: url("../fonts/Roboto-Black.ttf");
+    }
+    
+    @font-face {
+    	font-family:Roboto;
+    	src:url("../fonts/Roboto-Regular.ttf");
+    }
+    
+    @font-face {
+    	font-family:RobotoLight;
+    	src:url("../fonts/Roboto-Light.ttf");
+    }
+    
+    body {
+    	font-family:RobotoLight;
+    }
+    
+    nav, h1 {
+    	font-family:RobotoBlack;
+    }
+    
+    nav img {
+    	height:45px;
+    	width:45px;
+    	margin-top:-0.7em;
+    	position:absolute;
+    	-webkit-transition: opacity 0.25s ease-in-out;
+  		-moz-transition: opacity 0.25s ease-in-out;
+  		-o-transition: opacity 0.25s ease-in-out;
+  		transition: opacity 0.25s ease-in-out;
+    }
+    
+    nav img.top:hover {
+    	opacity:0;
+    }
+    
+    ul.nav.navbar-nav {
+    	margin-left:5em;
+    }
+    
+    .navbar-inverse {
+    	background-color:#79CEF8;
+    	border-color:#79CEF8;
+    }
+    
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    	color:#000;
+    	-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		-o-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+    }
+    
+    .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+    	color:#fffff0;
+    }
+    
+    .navbar-inverse .navbar-toggle .icon-bar {
+    	background-color:#fffff0;
+    }
+    
+    .navbar-inverse .navbar-toggle {
+    	border-color:#79CEF8;
+    	-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+    }
+    
+    .navbar-inverse .navbar-collapse {
+    	border-color:#fffff0;
+    }
+    
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    	background-color:#000;
+    }
+    
+    #daCapo.image-bg-fluid-height {
+    	background-image:url('../images/splash/header.jpg');
+    }
+    
+    #student.image-bg-fluid-height {
+    	background-image:url('../images/splash/sheet.jpg');
+    }
+    
+    #music_studio.image-bg-fluid-height {
+    	background-image:url('../images/splash/studio.jpg');
+    }
+    
+    #concert.image-bg-fluid-height {
+    	background-image:url('../images/splash/playing.jpg');
+    }
+    
+    #testimonial.image-bg-fluid-height {
+    	background-image:url('../images/splash/testimonials.jpg');
+    }
+	
+    #impdates.image-bg-fluid-height {
+		background-image:url('../images/splash/dates.jpg');
+	}
+	
+	#videos.image-bg-fluid-height {
+		background-image:url('../images/splash/videos.jpg');
+	}
+    
+    #footer.image-bg-fixed-height {
+    	background-image:url('../images/splash/footer.jpg');
+    	height:350px;
+    }
+    
+    .image-bg-fluid-height {
+    	padding:200px 0;
+    }
+    
+    #student.image-bg-fluid-height, #music_studio.image-bg-fluid-height, 
+    	#concert.image-bg-fluid-height, #testimonial.image-bg-fluid-height,
+    		#impdates.image-bg-fluid-height, #videos.image-bg-fluid-height,
+    			#footer.image-bg-fixed-height {
+		background-size:cover;
+	}
+	
+	img#dc_logo {
+		height:300px;
+		width:300px;
+		float:right;
+		margin-top:1em;
+	}
+    
+    .section-lead {
+    	font-family:Roboto;
+    	font-size:2em;
+    }
+    
+    .section-sub {
+	    font-family:Roboto;
+    	font-size:1.6em;
+    }
+    
+    #student-date.section-sub {
+    	margin-top:-1.4em;
+    }
+    
+    .section-paragraph {
+    	font-size:1.4em;
+    }
+    
+    .column {
+		position:relative;
+		min-height:1px;
+		padding-right:15px;
+		padding-left:15px;
+		margin-bottom:2em;
+	}
+	
+	.contact_column {
+		position:relative;
+		min-height:1px;
+		width:50%;
+	}
+	
+	a {
+		color:#1e90ff;
+		-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		-o-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+	}
+	
+	a:hover {
+		color:#33a1c9;
+		text-decoration:none;
+	}
+	
+	figcaption, footer p {
+		font-size:1.2em;
+	}
+	
+	video {
+		margin-bottom:2em;
+	}
+	
+	span#indent {
+    	margin-left:1.25em;
+    }
+    
+    span#concert_location {
+    	margin-left:5.25em;
+    }
+    
+    #sprcon .section-paragraph span {
+    	margin-left:5.35em;
+    }
+    
+    #about .section-paragraph span {
+    	margin-left:1.5em;
+    }
+    
+    .img-responsive {
+    	border:1px solid #79CEF8;
+    }
+    
+    img#rcm-header {
+    	height:90px;
+    	float:left;
+    	margin-top:-2.3em;
+    }
+    
+    img#rcm-footer {
+    	height:100px;
+    	float:left;
+    	position:relative;
+    	bottom:20px;
+    }
+    
+    img#eagle-footer {
+    	height:100px;
+    	width:100px;
+    	float:right;
+    	position:relative;
+    	bottom:20px;
+    }
+    
+    table, td, th {
+    	border:1px solid black;
+    }
+    
+    table {
+    	width:980px;
+    	height:250px;
+    }
+    
+    th {
+    	font-family:RobotoBlack;
+    	text-align:center;
+    	font-size:30px;
+    	background-color:#79CEF8;
+    	color:#fffff0;
+    }
+    
+    img.eagle_table {
+    	height:50px;
+    	width:50px;
+    }
+    
+    td {
+    	width:140px;
+    	text-align:center;
+    }
+    
+    td.days {
+    	font-family:Roboto;
+    	font-size:18px;
+    	background-color:#7B66CD;
+    	color:#fffff0;
+    }
+    
+    td#start_of_classes {
+    	background-color:yellow;
+    }
+    
+    .embed-responsive object {
+    	width:75%;
+    	margin-left:12.5%;
+    }
+    
+    @media(max-width:768px) {
+    
+    	.image-bg-fluid-height {
+    		padding:150px 0;
+	   		background-size:cover;
+    	}
+    	
+    	#footer.image-bg-fixed-height {
+    		height:250px;
+    		background-size:cover;
+    	}
+    	
+    	ul.nav.navbar-nav {
+    		margin-left:0px;
+    	}
+    	
+    	img#dc_logo {
+    		height:200px;
+    		width:200px;
+    		margin-top:-0.7em;
+    	}
+    	
+    	.section-heading {
+    		font-size:2.5em;
+    	}
+    	    	
+    	.section-lead {
+    		font-size:1.7em;
+    	}
+    	
+    	.section-sub {
+    		font-size:1.4em;
+    	}
+    	
+    	.section-paragraph {
+    		font-size:1.1em;
+    	}
+    	
+    	figcaption {
+    		font-size:0.95em;
+    	}
+    	
+    	footer p {
+    		font-size:0.85em;
+    	}
+    	
+    	iframe, object, embed {
+    		max-width:100%;
+    		height:350px;
+    	}
+    	
+    	.col-md-6, .col-md-4 {
+    		margin-bottom:1.75em;
+    	}
+    	
+    	.contact_column {
+    		width:75%;
+    	}
+    	
+    	table {
+    		width:700px;
+    	}
+    	
+    	td {
+    		width:100px;
+    	}
+    	
+    	img#rcm-footer {
+    		height:50px;
+    		bottom:-2em;
+    	}
+    	
+    	img#eagle-footer {
+    		height:50px;
+    		width:50px;
+    		bottom:-2em;
+    	}
+    	
+    	.embed-responsive object {
+    		width:100%;
+    		margin-left:0%;
+    	}
+    }
+    
+    @media(max-width:991px) and (min-width:768px) {
+    	ul.nav.navbar-nav {
+    		margin-left:1em;
+    	}
+    }
+    
+    @media(max-width:991px) and (min-width:850px) {
+    	a#a_home, img.bottom, img.top {
+    		margin-left:-2.5em;
+    	}
+    }
+    
+    @media(max-width:849px) and (min-width:768px) {
+    	a#a_home, img.bottom, img.top {
+    		margin-left:-1em;
+    	}
+    }
+    
+    @media(max-width:600px) {
+    	table {
+    		width:560px;
+    	}
+    	
+    	td {
+    		width:80px;
+    	}
+    }
+    
+    @media(max-width:500px) {
+    	table {
+    		width:420px;
+    	}
+    	
+    	th {
+    		font-size:24px;
+    	}
+    	
+    	td.days {
+    		font-size:14px;
+    	}
+    	
+    	td {
+    		width:60px;
+    	}
+    }
+    
+    @media(max-width:450px) {
+    	table {
+    		width:315px;
+    	}
+    	
+    	th {
+    		font-size:21px;
+    	}
+    	
+    	td.days {
+    		font-size:12px;
+    	}
+    	
+    	td {
+    		width:45px;
+    	}
+    }
+    
+    @media(min-width:768px) {    	
+    	.column {
+    		width:50%;
+    		float:left;
+    	}
+    }
+    
+    @media(min-width:992px) {
+    	#testimonials-2.col-md-6 {
+    		margin-top:6.5em;
+    	}
+    } 
+    
+    @media(max-width:612px) {
+    	p#teacherMessage {
+    		margin-top:5em;
+    	}
+    	
+    	img#rcm-header {
+    		margin-top:5em;
+    	}
+    } 
