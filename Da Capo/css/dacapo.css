@@ -173,6 +173,14 @@
 		text-decoration:none;
 	}
 	
+	#pink {
+		background-color:rgba(255,192,203,0.3);
+	}
+	
+	#blue {
+		background-color:rgba(240,248,255,1.0);
+	}
+	
 	figcaption, footer p {
 		font-size:1.2em;
 	}
